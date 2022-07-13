@@ -1,0 +1,20 @@
+#svgControls, #showSvgControls { transition: all 0.5s; }
+#svgControls { z-index: 1; display: none; max-width: 120px; font-size: 10px; opacity: 0.85; background-color: #2f2f2f; color: #fff; border-radius: 0 10px 10px 0; padding: 4px; text-align: center; }
+#svgControls:hover { opacity: 1; }
+#svgControls img { height: 25px; }
+#showSvgControls .btn-show-controls { color: #fff; background-color: #485c80; border-color: #485c80; font-size: 10px; padding: 6px; border-radius: 0 10px 10px 0; }
+#showSvgControls .btn-show-controls:hover, #showSvgControls .btn-show-controls:active, #showSvgControls .btn-show-controls:focus { color: #fff; }
+#resetZoom { margin-top: 5px; background: #a21618; }
+#startZoom {padding: 6px !important;}
+@media (max-width:768px) {
+	#svgControls, #showSvgControls { display: none; }
+}
+.svgzoomer-controls { position: absolute; bottom: 80px; right: 50px; padding: 20px; color: #fff; width: 120px; }
+.svg-zoomer-d-pad { background-color: #6d6d6d; font-size: 15px; padding: 4px 7px; position: absolute; border-radius: 50%; color: #ffffff; user-select: none; font-weight: bold; text-align: center; cursor: pointer; }
+#svgzoomer-d-up { top: 0px; left: 25px; }
+#svgzoomer-d-down { top: 50px; left: 25px; }
+#svgzoomer-d-left { top: 25px; left: 0px; }
+#svgzoomer-d-right { top: 25px; left: 50px; }
+.svg-zoomer-zoom-control { background-color: #6d6d6d; font-size: 20px; position: absolute; border-radius: 50%; color: #ffffff; user-select: none; font-weight: bold; text-align: center; cursor: pointer; }
+#svgzoomer-zoom-in { padding: 1px 11px; top: 10px; right: 0px; }
+#svgzoomer-zoom-out { padding: 1px 12px; top: 50px; right: 0px; }
